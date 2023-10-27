@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left-column">
+            <header>
+                <img src="images/logo.png" alt="Emoji Agenda">
+                <h1>Agenda <br>de contatos</h1>
+            </header>
+            <form id="form-agenda">
+                <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+                <input type="tel" pattern="[0-9]{8,13}" id="telefone" required placeholder="Telefone" />
+                <input type="text" id="descricao" placeholder="Descrição (opcional)" />
+                <label for="confirmado">Confirmada?</label>
+                <input type="checkbox" id="confirmado">
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+
+        <div class="right-column">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome do contato</th>
+                        <th>Telefone</th>
+                        <th>Descrição</th>
+                        <th>Confirmada?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>---</td>
+                        <td id="total-confirmacoes">---</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

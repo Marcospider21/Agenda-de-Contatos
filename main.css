@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #010409;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 4px;
+    background-color: #1f2329;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: #1f2329;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-column {
+    padding-top: 100px;
+    max-width: 300px;
+    height: 1000px;
+    background-color: #0D1117;
+    padding-left: 5px;
+    border-right: 2px solid #1f2329;
+    border-left: 2px solid #1f2329;
+}
+
+.right-column {
+    padding-top: 100px;
+    width: 780px;
+}
+
+form {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: #1f2329;
+}
+
+form button {
+    background-color: #03571f;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+label {
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 8px;
+    width: 240px;
+    display: inline-block;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    background-color: #1f2329;
+    color: gray;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #1f2329;
+    border-top: 1px solid #1f2329;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #1f2329;
+}
+
+table td img {
+    height: 30px;
+}
